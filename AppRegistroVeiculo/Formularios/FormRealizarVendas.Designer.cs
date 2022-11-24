@@ -50,8 +50,10 @@
             // 
             // btSalvar
             // 
+            this.btSalvar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
+            this.btSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btSalvar.Font = new System.Drawing.Font("Cascadia Mono", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btSalvar.Location = new System.Drawing.Point(440, 457);
+            this.btSalvar.Location = new System.Drawing.Point(433, 456);
             this.btSalvar.Name = "btSalvar";
             this.btSalvar.Size = new System.Drawing.Size(124, 42);
             this.btSalvar.TabIndex = 40;
@@ -61,8 +63,10 @@
             // 
             // btCancelar
             // 
+            this.btCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
+            this.btCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btCancelar.Font = new System.Drawing.Font("Cascadia Mono", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btCancelar.Location = new System.Drawing.Point(310, 457);
+            this.btCancelar.Location = new System.Drawing.Point(303, 456);
             this.btCancelar.Name = "btCancelar";
             this.btCancelar.Size = new System.Drawing.Size(124, 42);
             this.btCancelar.TabIndex = 39;
@@ -72,8 +76,10 @@
             // 
             // btAdd
             // 
+            this.btAdd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
+            this.btAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btAdd.Font = new System.Drawing.Font("Cascadia Mono", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btAdd.Location = new System.Drawing.Point(180, 457);
+            this.btAdd.Location = new System.Drawing.Point(173, 456);
             this.btAdd.Name = "btAdd";
             this.btAdd.Size = new System.Drawing.Size(124, 42);
             this.btAdd.TabIndex = 38;
@@ -235,7 +241,7 @@
             this.Controls.Add(this.cbVeiculo);
             this.Controls.Add(this.cbPessoa);
             this.Name = "FormRealizarVendas";
-            this.Text = "FormRealizarVendas";
+            this.Text = "REALIZAR VENDAS";
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

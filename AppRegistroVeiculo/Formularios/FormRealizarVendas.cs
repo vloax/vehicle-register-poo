@@ -123,7 +123,7 @@ namespace AppRegistroVeiculo.Formularios
 
             if (posCliente > -1)
             {
-
+              
                 int idCliente = listaCliente.ElementAt(posCliente).Id;
                 edNome.Text = listaCliente.ElementAt(posCliente).Nome;
 
@@ -139,6 +139,7 @@ namespace AppRegistroVeiculo.Formularios
 
             Venda venda = new Venda();
 
+            venda.Id = ++idVenda;
             venda.DataVenda = dtpVendas.Value;
             venda.VeiculoId = cbVeiculo.SelectedIndex;
             venda.ClienteId = cbPessoa.SelectedIndex;

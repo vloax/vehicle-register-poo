@@ -63,6 +63,7 @@
             // 
             // btConsultar
             // 
+            this.btConsultar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btConsultar.Font = new System.Drawing.Font("Cascadia Code", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btConsultar.Location = new System.Drawing.Point(265, 195);
             this.btConsultar.Margin = new System.Windows.Forms.Padding(6);
@@ -127,7 +128,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.cbVeiculo);
             this.Name = "FormConsultarVeiculo";
-            this.Text = "FormConsultarVeiculo";
+            this.Text = "CONSULTAR VEÍCULOS";
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCliente)).EndInit();
             this.ResumeLayout(false);

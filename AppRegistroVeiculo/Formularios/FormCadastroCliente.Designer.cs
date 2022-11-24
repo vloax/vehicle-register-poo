@@ -110,6 +110,8 @@
             // 
             // btSalvar
             // 
+            this.btSalvar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
+            this.btSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btSalvar.Font = new System.Drawing.Font("Cascadia Code", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btSalvar.Location = new System.Drawing.Point(289, 383);
             this.btSalvar.Name = "btSalvar";
@@ -121,6 +123,8 @@
             // 
             // btCancelar
             // 
+            this.btCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
+            this.btCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btCancelar.Font = new System.Drawing.Font("Cascadia Code", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btCancelar.Location = new System.Drawing.Point(463, 383);
             this.btCancelar.Name = "btCancelar";
@@ -132,6 +136,8 @@
             // 
             // btAdd
             // 
+            this.btAdd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
+            this.btAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btAdd.Font = new System.Drawing.Font("Cascadia Code", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btAdd.Location = new System.Drawing.Point(118, 383);
             this.btAdd.Name = "btAdd";
@@ -158,7 +164,7 @@
             this.Font = new System.Drawing.Font("Cascadia Code", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "FormCadastroCliente";
-            this.Text = "FormCadastroCliente";
+            this.Text = "CADASTRAR CLIENTES";
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

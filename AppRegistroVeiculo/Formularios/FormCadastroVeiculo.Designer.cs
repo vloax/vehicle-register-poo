@@ -48,9 +48,11 @@
             // 
             // btSalvar
             // 
+            this.btSalvar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
+            this.btSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btSalvar.Font = new System.Drawing.Font("Cascadia Code", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btSalvar.Location = new System.Drawing.Point(273, 463);
-            this.btSalvar.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btSalvar.Margin = new System.Windows.Forms.Padding(6);
             this.btSalvar.Name = "btSalvar";
             this.btSalvar.Size = new System.Drawing.Size(154, 42);
             this.btSalvar.TabIndex = 42;
@@ -60,9 +62,11 @@
             // 
             // btCancelar
             // 
+            this.btCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
+            this.btCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btCancelar.Font = new System.Drawing.Font("Cascadia Code", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btCancelar.Location = new System.Drawing.Point(439, 463);
-            this.btCancelar.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btCancelar.Margin = new System.Windows.Forms.Padding(6);
             this.btCancelar.Name = "btCancelar";
             this.btCancelar.Size = new System.Drawing.Size(154, 42);
             this.btCancelar.TabIndex = 41;
@@ -72,9 +76,11 @@
             // 
             // btAdd
             // 
+            this.btAdd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
+            this.btAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btAdd.Font = new System.Drawing.Font("Cascadia Code", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btAdd.Location = new System.Drawing.Point(107, 463);
-            this.btAdd.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btAdd.Margin = new System.Windows.Forms.Padding(6);
             this.btAdd.Name = "btAdd";
             this.btAdd.Size = new System.Drawing.Size(154, 42);
             this.btAdd.TabIndex = 40;
@@ -97,7 +103,7 @@
             // 
             this.edValor.Font = new System.Drawing.Font("Cascadia Code", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.edValor.Location = new System.Drawing.Point(219, 388);
-            this.edValor.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.edValor.Margin = new System.Windows.Forms.Padding(6);
             this.edValor.Name = "edValor";
             this.edValor.Size = new System.Drawing.Size(278, 30);
             this.edValor.TabIndex = 38;
@@ -118,7 +124,7 @@
             // 
             this.edAno.Font = new System.Drawing.Font("Cascadia Code", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.edAno.Location = new System.Drawing.Point(135, 301);
-            this.edAno.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.edAno.Margin = new System.Windows.Forms.Padding(6);
             this.edAno.Name = "edAno";
             this.edAno.Size = new System.Drawing.Size(186, 30);
             this.edAno.TabIndex = 36;
@@ -138,7 +144,7 @@
             // 
             this.edPlaca.Font = new System.Drawing.Font("Cascadia Code", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.edPlaca.Location = new System.Drawing.Point(354, 301);
-            this.edPlaca.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.edPlaca.Margin = new System.Windows.Forms.Padding(6);
             this.edPlaca.Name = "edPlaca";
             this.edPlaca.Size = new System.Drawing.Size(218, 30);
             this.edPlaca.TabIndex = 34;
@@ -147,7 +153,7 @@
             // 
             this.edMarca.Font = new System.Drawing.Font("Cascadia Code", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.edMarca.Location = new System.Drawing.Point(134, 213);
-            this.edMarca.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.edMarca.Margin = new System.Windows.Forms.Padding(6);
             this.edMarca.Name = "edMarca";
             this.edMarca.Size = new System.Drawing.Size(438, 30);
             this.edMarca.TabIndex = 33;
@@ -179,7 +185,7 @@
             // 
             this.edModelo.Font = new System.Drawing.Font("Cascadia Code", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.edModelo.Location = new System.Drawing.Point(135, 125);
-            this.edModelo.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.edModelo.Margin = new System.Windows.Forms.Padding(6);
             this.edModelo.Name = "edModelo";
             this.edModelo.Size = new System.Drawing.Size(438, 30);
             this.edModelo.TabIndex = 29;
@@ -224,9 +230,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Font = new System.Drawing.Font("Cascadia Code", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "FormCadastroVeiculo";
-            this.Text = "FormCadastroVeiculo";
+            this.Text = "CADASTRAR VEÍCULOS";
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

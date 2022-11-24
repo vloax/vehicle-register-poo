@@ -89,7 +89,7 @@
             this.Controls.Add(this.dtTabela);
             this.Controls.Add(this.panel2);
             this.Name = "FormListarVendas";
-            this.Text = "FormListarVendas";
+            this.Text = "LISTAR VENDAS";
             ((System.ComponentModel.ISupportInitialize)(this.dtTabela)).EndInit();
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);

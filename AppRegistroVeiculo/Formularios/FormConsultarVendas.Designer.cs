@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.cbVeiculo = new System.Windows.Forms.ComboBox();
@@ -73,7 +73,7 @@
             this.cbVeiculo.Font = new System.Drawing.Font("Cascadia Code", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbVeiculo.FormattingEnabled = true;
             this.cbVeiculo.Location = new System.Drawing.Point(386, 134);
-            this.cbVeiculo.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.cbVeiculo.Margin = new System.Windows.Forms.Padding(6);
             this.cbVeiculo.Name = "cbVeiculo";
             this.cbVeiculo.Size = new System.Drawing.Size(287, 29);
             this.cbVeiculo.TabIndex = 37;
@@ -85,16 +85,17 @@
             this.cbCliente.Font = new System.Drawing.Font("Cascadia Code", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbCliente.FormattingEnabled = true;
             this.cbCliente.Location = new System.Drawing.Point(44, 134);
-            this.cbCliente.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.cbCliente.Margin = new System.Windows.Forms.Padding(6);
             this.cbCliente.Name = "cbCliente";
             this.cbCliente.Size = new System.Drawing.Size(290, 29);
             this.cbCliente.TabIndex = 36;
             // 
             // btConsultar
             // 
+            this.btConsultar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btConsultar.Font = new System.Drawing.Font("Cascadia Code", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btConsultar.Location = new System.Drawing.Point(265, 194);
-            this.btConsultar.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btConsultar.Margin = new System.Windows.Forms.Padding(6);
             this.btConsultar.Name = "btConsultar";
             this.btConsultar.Size = new System.Drawing.Size(198, 38);
             this.btConsultar.TabIndex = 40;
@@ -104,8 +105,8 @@
             // 
             // dgvTabela
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Salmon;
-            this.dgvTabela.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Salmon;
+            this.dgvTabela.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvTabela.AutoGenerateColumns = false;
             this.dgvTabela.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvTabela.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
@@ -115,7 +116,7 @@
             this.valor});
             this.dgvTabela.DataSource = this.bindingSource1;
             this.dgvTabela.Location = new System.Drawing.Point(15, 259);
-            this.dgvTabela.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.dgvTabela.Margin = new System.Windows.Forms.Padding(6);
             this.dgvTabela.Name = "dgvTabela";
             this.dgvTabela.Size = new System.Drawing.Size(701, 254);
             this.dgvTabela.TabIndex = 41;
@@ -165,9 +166,9 @@
             this.Controls.Add(this.cbVeiculo);
             this.Controls.Add(this.cbCliente);
             this.Font = new System.Drawing.Font("Cascadia Code", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "FormConsultarVendas";
-            this.Text = "FormConsultarVendas";
+            this.Text = "CONSULTAR VENDAS";
             ((System.ComponentModel.ISupportInitialize)(this.dgvTabela)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.panel2.ResumeLayout(false);

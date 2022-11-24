@@ -88,7 +88,7 @@
             this.Controls.Add(this.dtTabela);
             this.Controls.Add(this.panel2);
             this.Name = "FormListarClientes";
-            this.Text = "FormListarClientes";
+            this.Text = "LISTAR CLIENTES";
             ((System.ComponentModel.ISupportInitialize)(this.dtTabela)).EndInit();
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);

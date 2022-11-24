@@ -108,14 +108,6 @@ namespace AppRegistroVeiculo.Formularios
             listaVeiculo.Clear();//limpar a lista
             StreamReader sr = new StreamReader("veiculos.csv");
 
-            if (sr.EndOfStream == null)
-            {
-
-                id = 1;
-
-            }
-            else
-            {
                 while (!sr.EndOfStream)
                 {
                     Veiculo veiculo = new Veiculo();
@@ -130,7 +122,7 @@ namespace AppRegistroVeiculo.Formularios
                 }
                 sr.Close();
                 id = listaVeiculo.Last().Id;
-            }
+            
             
 
         }
